@@ -1,0 +1,121 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    outline: none;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #c5c5c5a2;
+}
+nav {
+    background-image: linear-gradient(to right, darkgray, rgb(100, 99, 99));
+    max-width: 100%;
+    height: 100px;
+}
+nav a h3 {
+    font-size: 35px;
+    margin-left: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+}
+footer {
+    position: relative;
+    background-image: linear-gradient(to left, darkgray, rgb(100, 99, 99));
+    max-width: 100%;
+    height: 100px;
+}
+.bodybar {
+    display: flex;
+    flex-flow: column wrap;
+}
+.ladobar {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: linear-gradient(to bottom, darkgray, rgb(100, 99, 99));
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 15%;
+    position: relative;
+    top: 7px;
+    left: 2px;
+}
+.celulardentro {
+    border: solid black 0.1px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 5);
+    background-image: linear-gradient(to top, darkgray, rgb(100, 99, 99));
+    border-radius: 10px;
+    border-bottom-right-radius: 30px;
+    border-bottom-left-radius: 30px;
+    height: 900px;
+    width: 450px;
+    position: relative;
+    right: 950px; 
+}
+.barracimacel {
+    background-color: black;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    height: 60px;
+    width: 440;
+}
+.Pbarracimacel {
+    position: relative;
+    top: 10px;
+    left: 407px;
+    font-size: 35px;
+    color: white;
+}
+.barrabaixocel {
+    position: relative;
+    top: 645px;
+    background-color: black;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    height: 60px;
+    width: 450;
+}
+.brancodentrocel {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    position: relative;
+    bottom: 600px;
+    left: 40px;
+    background-color: white;
+    border-radius: 20px;
+    height: 570px;
+    max-width: 370px;
+}
+.frasedentrocel {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: relative;
+    top: 15px;
+    left: 8px;
+}
+.festa {
+    position: relative;
+    bottom: 39px;
+    height: 150px;
+    width: 150px;
+}
+.festavideo {
+    position: relative;
+    height: 400px;
+    width: 370px;
+}
+
+
+
+
+
+.dentroladobar {
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-image: linear-gradient(to top, darkgray, rgb(100, 99, 99));
+    display: flex;
+    flex-flow: column wrap;
+    height: 753px;
+    width: 283px;
+    margin-left: 1633px;
+
+}
